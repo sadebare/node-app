@@ -23,4 +23,3 @@ docker run -d -p 3000:3000 --name sample-app sample-node-app
 2. **build-scan-push** – build the image, scan it with Trivy (fails on fixable CRITICAL/HIGH), then push `latest` and the commit SHA tag to Docker Hub
 
 Required repository secrets: `DOCKERHUB_USERNAME`, `DOCKERHUB_TOKEN`.
-
